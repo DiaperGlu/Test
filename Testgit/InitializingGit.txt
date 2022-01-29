@@ -1,0 +1,19 @@
+// creating a remote repository
+I used the github website to add an empty repository
+
+// creating a new repository for an existing directory
+cd into directory you want to put under git
+  in this directory I made a folder that contained the stuff I wanted under git...
+  it had nothing else... except the mac .DS_Store stuff
+
+git init
+
+git add .
+
+git commit
+
+git branch -M main
+
+git remote add origin https://github.com/DiaperGlu/Test.git
+
+git push -u origin main
